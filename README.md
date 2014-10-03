@@ -4,7 +4,12 @@ RSS Feed Reader
 Limited use feed reader that takes XML links for RSS and appends them to user's list of RSS feeds. 
 Currently found NPR and TheNewYorker RSS feeds to work.
 
-*App works when appending '/rss' to url [without quotes]*
+1. Enter RSS URL in text field at top
+2. Open menu and copy the feed name (NOT the feed source provider--e.g. NPR)
+3. Append feed name to URL in address bar
+4. Hit enter
+
+Sample link: http://www.npr.org/rss/rss.php?id=1019
 
 **TODO**
 
