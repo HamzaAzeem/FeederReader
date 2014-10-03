@@ -1,7 +1,7 @@
-RSS Feed Reader
+FeederReader
 ================
 
-Limited use feed reader that takes XML links for RSS and appends them to user's list of RSS feeds. 
+Limited use RSS feed reader that takes XML links for RSS and appends them to user's list of RSS feeds. 
 Currently found NPR and TheNewYorker RSS feeds to work. This application uses the 'Frameworkless' framework (https://github.com/synacorinc/frameworkless)
 
 **To run locally:**
