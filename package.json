@@ -1,0 +1,23 @@
+{
+  "name": "frameworkless-boilerplate",
+  "version": "0.1.0",
+  "description": "Boilerplate frontend for a frameworkless app.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git01.dev.synacor.com:~git/devs/jasonmiller/frameworkless-boilerplate"
+  },
+  "keywords": [
+    "frameworkless"
+  ],
+  "author": "App Platform Team",
+  "license": "GPLv3",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "express": "~3.4.8"
+  }
+}

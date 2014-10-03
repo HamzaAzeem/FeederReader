@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<base href="/" />
+		<meta charset="utf-8">
+		<title>RSS Feed Parser</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/pure-min.css">
+	</head>
+	<body>
+		<div id="header" class="pure-menu pure-menu-open pure-menu-horizontal nav">
+			<div id="inputContainer">
+				<h1>Feeder Reader</h1>
+				<input id="rssUrl" type="text" placeholder="Enter RSS Feed URL"></input>
+				<input type="submit" id="submit"></input>
+			</div>
+		</div>
+
+		<div id="main">
+			<div id="linksBtn" class="btn">
+				Saved RSS Feeds
+			</div>
+			<div id="linksDiv" class="listContainer">
+				<div id="emptyBtn" class="btn">
+					Empty list
+				</div>
+
+				<div id="list">
+					<ul></ul>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/lib/require.js" data-main="js/app.js"></script>
+	</body>
+</html>
