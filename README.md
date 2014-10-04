@@ -6,7 +6,7 @@ Currently found NPR and TheNewYorker RSS feeds to work. This application uses th
 
 **To run locally:**
 
-1. Point towards root directory in terminal/bash/shell/...
+1. Point towards root directory with terminal/bash/shell/...
 2. Run 'npm install' (or install Node first if you don't have it yet)
 3. Run 'npm start'
 4. Enter 'localhost:8080' (or whatever the port is set to) in your browser
