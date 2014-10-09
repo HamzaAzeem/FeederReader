@@ -1,8 +1,10 @@
 FeederReader
 ================
 
-Limited use RSS feed reader that takes XML links for RSS and appends them to user's list of RSS feeds. 
-Currently found NPR and TheNewYorker RSS feeds to work. This application uses the 'Frameworkless' framework (https://github.com/synacorinc/frameworkless)
+RSS feed reader that takes XML links for RSS and appends them to user's list of RSS feeds. 
+This application uses the 'Frameworkless' framework (https://github.com/synacorinc/frameworkless)
+
+*NOTE*: There are many links that will not parse due to websites restricting CORS resulting in Access-Control-Allow-origin issues. This is not the app's fault. The RSS Feed host just doesn't allow a seperate domain to run it :(
 
 **To run locally:**
 
@@ -25,5 +27,4 @@ Sample link: http://www.npr.org/rss/rss.php?id=1019
 - Click-to-view functionality from menu
 - Create feed.js model
 - Split DOM code in rss.js to templates
-- Find way to have server-side access to the RSS service or mirror it, and include necessary headers (i.e. "Access-Control-Allow-Origin") for CORS request
 - Refactor.
