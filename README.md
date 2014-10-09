@@ -4,7 +4,7 @@ FeederReader
 RSS feed reader that takes XML links for RSS and appends them to user's list of RSS feeds. 
 This application uses the 'Frameworkless' framework (https://github.com/synacorinc/frameworkless)
 
-*NOTE*: There are many links that will not parse due to websites restricting CORS resulting in Access-Control-Allow-origin issues. This is not the app's fault. The RSS Feed host just doesn't allow a seperate domain to run it :(
+*NOTE*: There are many links that will not parse due to websites restricting CORS requests resulting in Access-Control-Allow-origin issues. This is not the app's fault. The RSS Feed host just doesn't allow a seperate domain to run it :(
 
 **To run locally:**
 
