@@ -7,6 +7,7 @@ This application uses the 'Frameworkless' framework (https://github.com/synacori
 *NOTE*: There are many links that will not parse due to websites restricting CORS requests resulting in Access-Control-Allow-origin issues. This is not the app's fault. The RSS Feed host just doesn't allow a seperate domain to run it :(
 
 **To run locally:**
+
 1. Run `npm install` and then `npm start`
 2. Located on `localhost:8080` by default
 3. Follow steps below
