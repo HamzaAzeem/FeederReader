@@ -9,7 +9,7 @@ This application uses the 'Frameworkless' framework (https://github.com/synacori
 **To run locally:**
 
 1. Run `npm install` and then `npm start`
-2. Located on `localhost:8080` by default
+2. Located at `localhost:8080` by default
 3. Follow steps below
 
 **Operating the app**
